@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.dad{
+    width: 100%;
+    height: 200px;
+    background-color: blueviolet;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sam{
+    width: 15%;
+    height: 200px;
+    background-color: red;
+    
+}
+.mom{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.anu{
+    width: 20%;
+    height: 200px;
+    background-color:gray;
+    display: inline-block;
+    margin-left: 4%;
+}
