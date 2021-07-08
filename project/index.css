@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(90, 0, 90); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.container{
+
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+}
+.logo{
+    height: 70px;
+    width: 15%;
+    /* background-color: red; */
+    color: white;
+    font-family: segoe  UI;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+
+.container_one{
+justify-content: space-between;
+}
+.nav{
+    height: 70px;
+    width: 35%;
+    /* background-color: green; */
+    display: flex;
+}
+.nav_set{
+    width: 20%;
+    height: 70px;
+    /* background-color: grey; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.nav_set:hover{
+    background-color: white;
+    color: rgb(90, 0, 90);
+}
+/* banner st */
+.banner{
+    width: 100%;
+    height: 450px;
+    background-color: grey;
+    background-image: url("https://i.ytimg.com/vi/CmO3DVhl--4/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.banner_txt{
+    height: 200px;
+    width: 40%;
+    background-color: rgb(90, 0, 90,0.7);
+    display: flex;
+    align-items: center;
+    color: white;
+       
+}
+.padd{
+    padding: 20px;
+    /* background-color: red; */
+}
+.banner_title{
+    font-family: segoe UI;
+    margin-bottom: 10px;
+}
+.banner_dec{
+    margin-bottom: 15px;
+}
+.banner_btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-family: segoe UI;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid white;
+    transition: .5s;
+}
+.banner_btn:hover{
+    background-color: white;
+    color: rgb(90, 0, 90);
+    border: 3px solid rgb(90, 0, 90);
+}
+/* banner end */
+
+/* services */
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #c3bebe;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+
+}
+.services_container{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service{
+    height: 300px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+.service_img{
+    height: 300px;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    overflow: hidden;
+}
+.service_details{
+    height: 300px;
+    width: 60%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+.service_padd{
+    padding: 10px;
+}
+.service_btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    background-color:rgb(90, 0, 90) ;
+    color: white;
+    font-family: segoe UI;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid rgb(90, 0, 90);
+    transition: .5s; 
+}
+.service_btn:hover{
+    color: rgb(90, 0, 90);
+    background-color: white;
+    border: 3px solid rgb(90, 0, 90);
+}
+.service_dec{
+    margin-bottom: 10px;
+}
+
+/* who we are */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    font-family: sengeo UI;
+    align-items: center;
+    
+}
+.about_container{
+    margin-top: 30px;
+    line-height: 20px;
+    display: inline;
+}
+.start_text{
+font-weight: bold;
+font-size: 30px;
+font-family: segoe UI;
+}
+.highlight{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: rgb(90, 0, 90);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.highligth_container{
+    justify-content: space-between;
+}
+.high_ele{
+    height: 150px;
+    width: 22%;
+    background-color: #330a33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+    text-align: center;
+}
+.high_dec{
+    font-size: 20px;    
+}
+.quote{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    font-family: segoe UI;
+}
+.quote_container{
+    flex-direction: column;
+    align-items: center;
+}
+.quote_title{
+    margin-bottom: 10px;
+}
+.quote_btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    color: rgb(90, 0, 90);
+    font-family: segoe UI;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid rgb(90, 0, 90);
+    transition: .5s;
+}
+.quote_btn:hover{
+    background-color: rgb(90, 0, 90);
+    color: rgb(255, 255, 255);
+}
+.portfolio{
+    /* padding-bottom: 50px;
+    padding-top: 50px; */
+    width: 100%;
+    background-color: #c7c2c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: segoe UI;
+
+}
+.portfolio_container{
+    
+    flex-wrap: wrap;
+    padding-top: 15px;
+    width: 100%;
+
+}
+.project{
+    width: 25%;
+    height: 300px;
+    background-color: red;
+    display: flex;
+   
+}
+.project_1{
+    background-image: url(./images/ladak.jpeg);
+    background-size: cover;
+    align-items: flex-start;
+}
+.project_2{
+    background-image: url(./images/himilaya.jpeg);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_3{
+    background-image: url(./images/tower.jpeg);
+    background-size: cover;
+    align-items: flex-start;
+}
+.project_4{
+    background-image: url(./images/india.jpeg);
+    background-size: cover;
+    align-items: flex-end;
+    
+}
+.project_5{
+    background-image: url(./images/taj.jpeg);
+    background-size: cover;
+    align-items: flex-start;
+}
+.project_6{
+    background-image: url(./images/war.jpeg);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_7{
+    background-image: url(./images/statue.jpeg);
+    background-size: cover;
+    align-items: flex-start;
+}
+.project_8{
+    background-image: url(./images/brow.jpeg);
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_title{
+    color: white;
+    height: 150px;
+    width: 100%;
+    text-indent: 10px;
+    background-color: rgb(90, 0, 90,.5);
+    line-height: 150px;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.project_title:hover{
+    
+    background-color: rgb(151, 150, 150,.3);
+    height: 300px;
+}
+/* footer */
+.footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color:#331633;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer_child{
+    width: 25%;
+    height: 250px;
+    /* background-color: gold; */
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.footer_child_1{
+    
+    color: white;
+    font-size: 22px;
+    align-items: center;
+}
+ul{
+    margin-top: 30px;
+}
+li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: white;
+}
+.child_2{
+    font-size: 21px;
+}
+.footer_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_container{
+    justify-content: space-between;
+}
+.social_icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+}
+.si1{
+    background-image: url(./images/facebook.png);
+    background-size: cover;
+}
+.si2{
+    background-image: url(./images/gmail.png);
+    background-size: cover;
+}
+.si3{
+    background-image: url(./images/google.png);
+    background-size: cover;
+}
+.si4{
+    background-image: url(./images/insta.png);
+    background-size: cover;
+}
